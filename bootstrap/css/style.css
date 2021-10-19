@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.movie__poster {
+  object-fit: cover;
+  object-position: center;
+}
+mark{
+  background-color: #ff0;
+}
+.js-modal__body{
+  height: 250px;
+  overflow: auto;
+}
+
+
+.js-modal__body::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.js-modal__body::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.js-modal__body:hover::-webkit-scrollbar-thumb {
+    background: rgb(250, 4, 4);
+    width: 5px;
+}
+
+.save-result{
+  color: #000;
+}
+.new-save__item{
+  margin-top: 5px;
+  background-color: rgb(0, 255, 234);
+  border-radius: 10px;
+  padding: 10px;
+  color: #000;
+
+}
+
+
+.all-saved__movies{
+  margin-bottom: 20px;
+  position: fixed;
+  top: 300px;
+  left:  0px;
+  z-index: 1;
+}
+
+
